@@ -5,7 +5,7 @@ function toUpperCase(){
 		exit;
 	fi
 
-	echo $(echo $1 | tr 'a-z' 'A-Z')
+	echo $( echo $1 | tr [:lower:] [:upper:] )
 
 }
 
