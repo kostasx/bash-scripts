@@ -8,7 +8,7 @@ A collection of useful BASH shell scripts.
 
 USAGE: `echo $( toUpperCase "lowercase string here" )`
 
-outputs: LOWERCASE STRING HERE
+outputs: `LOWERCASE STRING HERE`
 
 **toCamelCase**
 
